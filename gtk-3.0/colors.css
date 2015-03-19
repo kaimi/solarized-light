@@ -1,0 +1,44 @@
+/**
+ * Color definitions.
+ *
+ * Each color defined in this file is usable as a symbolic color
+ * in all files included after it.
+ *
+ * Color definitions have the format `@define-color <name> <value>;',
+ * where <name> is a name you choose, and <value> is a color definition.
+ * Defined colors can be used in rules with the syntax `@<name>'
+ *
+ * The most common color definition is a html color code: #rrbbgg
+ * For more information see (1) or (2).
+ *
+ * (1) file:///usr/share/devhelp/books/gtk3/GtkCssProvider.html#gtkcssprovider-symbolic-colors
+ * (2) http://developer.gnome.org/gtk3/3.1/GtkCssProvider.html#gtkcssprovider-symbolic-colors
+ */
+
+/* Some common color definitions
+ *
+ * @define-color base-color #ff00ff;
+ * @define-color background-color #ff00ff;
+ * @define-color forground-color #ff00ff;
+ * @define-color text-color #ff00ff;
+ */
+
+/* http://ethanschoonover.com/solarized */
+
+@define-color base03	#002b36;
+@define-color base02	#073642;
+@define-color base01	#586e75;
+@define-color base00	#657b83;
+@define-color base0	#839496;
+@define-color base1	#93a1a1;
+@define-color base2     #eee8d5;
+@define-color base3	#fdf6e3;
+@define-color yellow	#b58900;
+@define-color orange	#cb4b16;
+@define-color red	#dc322f;
+@define-color magenta	#d33682;
+@define-color violet	#6c71c4;
+@define-color blue	#268bd2;
+@define-color cyan	#2aa198;
+@define-color green	#859900;
+
